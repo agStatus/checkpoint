@@ -1,7 +1,6 @@
 <?php 
 include("funcoes.php");
-//verificaLogin();
-recuperarSenha('fernando.pufe@gmail.com');
+verificaLogin();
 session_start();
 ?>
 <!DOCTYPE html>
