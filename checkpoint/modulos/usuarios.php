@@ -4,13 +4,10 @@ protegeArquivo(basename(__FILE__));
 loadJS('geral');
 loadCSS('style');
 
- 
 ?>
-
 <?php 
 switch ($tela){
 	case 'login':?>
-
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -53,7 +50,6 @@ switch ($tela){
 		}
 	}
 	?>
-
 
 	<div class="row login">
 		<div class="container center-align">

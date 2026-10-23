@@ -1,6 +1,6 @@
 <?php 
 include("funcoes.php");
-verificaLogin();
+//verificaLogin();
 session_start();
 ?>
 <!DOCTYPE html>
